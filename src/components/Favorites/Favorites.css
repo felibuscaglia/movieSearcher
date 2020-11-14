@@ -1,0 +1,40 @@
+#moviePoster {
+    height: 300px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-size: 200px 300px;
+}
+
+#container {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+#deleteFavourite {
+    background: #E50914;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: flex;
+    padding: 5px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    margin-left: 47%;
+}
+
+#container:hover #deleteFavourite {
+    visibility: visible;
+}
+
+
+#container:hover #movieDetail {
+    visibility: visible;
+}

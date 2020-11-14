@@ -1,0 +1,56 @@
+#mainTitle {
+  color: #E50914;
+}
+
+
+#secondLine {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 30px;
+  background-color: #E50914;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 0;
+}
+
+#posterMD {
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+#plot {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  width: 400px;
+  display: flex;
+  align-self: center;
+  background: #E50914;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#posterDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+#extraMovieData {
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  font-size: 20px;
+  background-color: whitesmoke;
+  margin-top: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.extraMovieDataTitles {
+  color: #E50914;
+  font-size: 20px;
+  margin: 10px;
+  padding: 0;
+}

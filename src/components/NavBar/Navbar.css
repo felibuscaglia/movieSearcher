@@ -1,0 +1,22 @@
+.navbar {
+    background-color: black;
+}
+
+#navLink{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    border-bottom: 3px solid #E50914;
+}
+
+#div1 {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+#div2 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}

@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+#mainTitle {
+    font-family: 'Bebas Neue', cursive;
+    color: #E50914;
+    font-size: 50px;
+}
+
+#searchContainer {
+    width: 100vw;
+    position: relative
+}
+
+#searchInput {
+    display: inline;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #E50914;
+    outline: none;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+#searchInput::placeholder {
+    color: #E50914;
+}
+
+#searchButton {
+    display: inline;
+    background: #E50914;;
+    border: none;
+    border: 2px solid #E50914;
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#searchButton:hover {
+    background: transparent;
+    border: 2px solid #E50914;
+    color: #E50914;
+    cursor: pointer;
+}
+
+#poster {
+    height: 300px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-size: 200px 300px;
+}
+
+#results {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#favButton {
+    background: #E50914;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: flex;
+    padding: 5px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    margin-left: 14%;
+    text-decoration: none;
+}
+
+#heart {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+#ticket {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+#movieDetail {
+    background: #E50914;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: flex;
+    padding: 5px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    margin-left: 20%;
+    text-decoration: none;
+    visibility: hidden;
+    margin-top: 100%;
+}
+
+
+#poster:hover {
+    opacity: 75%;
+    background-size: 200px 300px;
+}
+
+#poster:hover #favButton {
+    visibility: visible;
+}
+
+#poster:hover #movieDetail {
+    visibility: visible;
+}
+
+
