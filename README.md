@@ -14,7 +14,7 @@ If you want to access detailed information about the feature (such as it's genre
 
 ![Detailed movie screen](https://i.ibb.co/5B8TRrX/Captura-de-Pantalla-2021-02-18-a-la-s-10-34-09.png)
 
-##Installation
+## Installation
 
 If you want to install this repository on your computer, you just need to follow this link (https://github.com/felibuscaglia/movieSearcher) and click on the green button that appears on the right corner of your screen. Copy the URL that the popup indicates and write the following command on your terminal:
 
