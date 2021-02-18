@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { NavLink } from 'react-router-dom';
 import rootReducer from "../../reducers/index";
 import './Buscador.css';
-import { getMovies, addMovieFavorite } from '/Users/cbusc/Henry/FT-M2/12-React-Redux/homework/src/actions/index';
+import { getMovies, addMovieFavorite } from '../../actions/index';
 import state from '../../reducers/index';
 import { Link } from 'react-router-dom';
 
