@@ -21,8 +21,13 @@ If you want to install this repository on your computer, you just need to follow
 ```bash
 git clone https://github.com/felibuscaglia/movieSearcher.git
 ```
+Once you've downloaded it, remember to install the packages the project needs to run. To do that, simply type this on your terminal: 
 
-Once you've downloaded it, you have to access the new folder on your terminal and run the following command:
+```bash
+npm install
+```
+
+The final step would be starting the applications. What you need to do is simple, run it with this command:
 
 ```bash
 npm start
